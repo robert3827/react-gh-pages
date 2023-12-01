@@ -1,4 +1,4 @@
-export const Projects = [
+var projectsList = [
    
     {
         "id": 1,
@@ -12,7 +12,7 @@ export const Projects = [
     {
         "id": 2,
         "title": "MIPS Processor",
-        "description": "This class had 4 labs all dedicated to building a functional computer processor. This started with the first lab where we created an Arithmetic unit(ALU) using just basic AND, OR, and NOT gates. In lab 2 we added data storage so our processor could use the output of the ALU. Finally in the thrid lab we were able to complete our fully functioning processor. In addition to arithmetic and store variables, it could handle more advanced operations like methods, loops and recursion; all of which are expected by any programmer. This processor was functional but slow and so in Lab 4 we upgraded our processor to run multiple instructions in parallel. Parallel processors are commonly used in modern systems today. Overall this class applies not just to chip designers because this class gives me an understanding of how my code operates from voltage signals on a processor to bits in assembly to complex instructions in a high level language like Java. The overall understanding helps me to write more efficient code.",
+        "description": "This class was dedicated to building a functional computer processor. This started with the first lab where we created an Arithmetic unit(ALU) using just basic AND, OR, and NOT gates. In lab 2 we added data storage so our processor could use the output of the ALU. Finally in the thrid lab we were able to complete our fully functioning processor. In addition to arithmetic and store variables, it could handle more advanced operations like methods, loops and recursion; all of which are expected by any programmer. This processor was functional but slow and so in Lab 4 we upgraded our processor to run multiple instructions in parallel. Parallel processors are commonly used in modern systems today. Overall this class applies not just to chip designers because this class gives me an understanding of how my code operates from voltage signals on a processor to bits in assembly to complex instructions in a high level language like Java. The overall understanding helps me to write more efficient code.",
 
         "class": "CPRE 381 Computer Organization and Assembly Programming",
         "tech stack": ["VHDL", "Assembly", "RISC", "Computer Architecture"],

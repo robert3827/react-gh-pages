@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.118.2">
+  <title>Robert Holeman Portfolio</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/jumbotron/">
+
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="./index.css">
+
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Tenth navbar example">
+    <div class="container-fluid">
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08"
+        aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./workExperience.html">Work Experience</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="./documents.html" data-bs-toggle="dropdown"
+              aria-expanded="false">Downloads</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" target="_blank" href="./files/Resume - Robert Holeman.pdf">Resume</a></li>
+                <li><a class="dropdown-item" href="./files/ethics.pdf">Ethics Essay</a></li>
+                <li><a class="dropdown-item" href="./files/ethics.pdf">Cumulative Reflection</a></li>
+                <li><a class="dropdown-item" href="./files/ethics.pdf">General Education Reflection</a></li>
+
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+  <main>
+
+    <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">Internships</h1>
+        <div class="text">
+          <p>
+            I have learned so much from my coworkers during my internships and I wanted to summarize my experience. 
+          </p>
+        </div>
+      </div>
+    </div>
+
+      <div  id="projListParent"class="row align-items-md-stretch">
+        <div class="col-md-3">
+          <div class="h-100 p-5 bg-body-tertiary border rounded-3 ">
+            <img src="./files/amex.jpg">
+            <h2>American Express</h2>
+            <p>Summer 2023 </p>
+            <button onclick="openPopup('W1')" class="btn btn-outline-light" type="button" aria-label="learn more about Senior Design Project">Learn More</button>
+          </div>
+        </div>
+  
+        <div class="col-md-3">
+          <div class="h-100 p-5 bg-body-tertiary border rounded-3 ">
+            <section>
+                <img class src="./files/cat.jpg">
+            </section>
+            
+            <h2>Caterpillar</h2>
+            <p>Summer 2022</p>
+            <button onclick="openPopup('W2')" class="btn btn-outline-light" type="button" aria-label="learn more about Senior Design Project">Learn More</button>
+          </div>
+        </div>
+  
+        
+        
+      </div>
+      
+      <div id="popupW1" class="popup-container container rounded bg-dark" style="min-height: 70%; min-width: 60%;">
+
+        <h2 id="puTitle" class="mb-3">American Express</h2>
+        <hr /> 
+
+        <p id="puDesc">During the summer of 2023 I worked with American Express in Phoenix, Arizona. As a full stack developer I worked on both the customer facing website and the APIs that support it. One of the projects I worked on at AMEX was to improve the User Interface for visitors with disabilities. For this project I completed training to be able to recognize potential issues, designed solutions to the issues, and then created the code to fix the issue improve the site. Throughout this project I got to explore the code base of a production website for a large organization and I got to work on real issues independently. I feel this has influenced my coursework at Iowa State. After working on a large website, I have a better understanding of what it means to write understandable and expandable code for other developers. This has helped me immensely in my group projects this semester. In my internship I also got the opportunity to participate in team standup meetings where I continue to see the importance of communication and that is something I have taken to my group projects as well. 
+        </p>
+
+       
+        
+        <button class="btn btn-secondary mt-3" onclick="closePopup('W1')">Close Popup</button>
+      </div>
+    
+      <div id="popupW2" class="popup-container container rounded bg-dark" style="min-height: 70%; min-width: 60%;">
+
+        <h2 id="puTitle" class="mb-3">Caterpillar</h2>
+        <hr /> 
+
+        <p id="puDesc">During the summer of 2022 I worked at Caterpillar in Peoria, IL. During my time at Caterpillar, I got learned how software fits into a large engineering and manufacturing company. One of the projects I worked on was focused more on the electrical/hardware side, where I created an automated test bench setup. Some of the design was created by my team, however as I became more familiar with the system I was able to improve it. This allowed me to apply the engineering knowledge and priciples I had learned during class to improve the usability of the test bench. </p>
+
+        
+        
+        <button class="btn btn-secondary mt-3" onclick="closePopup('W2')">Close Popup</button>
+      </div>
+    
+      
+    
+  
+  
+  
+    
+
+    
+
+    
+
+    
+
+
+  
+
+
+    
+  </main>
+  <!-- <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script> 
+  <script src="projectsList.js"></script>
+  <script src="index.js"></script>
+
+</body>
+
+</html>
